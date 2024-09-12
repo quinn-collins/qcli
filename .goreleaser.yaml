@@ -8,6 +8,20 @@
 
 version: 2
 
+brews:
+  - name: qcli
+    description: "CLI tool written in Go, designed to streamline integrations from the terminal."
+    homepage: "https://github.com/quinn-collins/qcli"
+    commit_author:
+      name: Quinn Collins
+      email: collinsqui@gmail.com
+    directory: Formula
+    license: "MIT"
+    repository:
+      owner: quinn-collins
+      name: homebrew-tap
+      branch: main
+
 before:
   hooks:
     - go mod tidy
