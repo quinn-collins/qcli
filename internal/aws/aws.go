@@ -27,7 +27,6 @@ type Client struct {
 
 func New() *Client {
 	app := app.New()
-	fmt.Printf("%+v\n", app.Config)
 
 	cfg, err := config.LoadDefaultConfig(
 		context.TODO(),
@@ -50,7 +49,6 @@ func New() *Client {
 
 func MFA() error {
 	app := app.New()
-	fmt.Printf("%+v", app.Config)
 
 	cfg, err := config.LoadDefaultConfig(
 		context.TODO(),
