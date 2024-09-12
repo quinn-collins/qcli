@@ -2,8 +2,14 @@
 
 ## Install
 
+With Go
 ```
 go install github.com/quinn-collins/qcli@latest
+```
+
+With Homebrew
+```
+brew install quinn-collins/tap/qcli
 ```
 
 ## Configuration
