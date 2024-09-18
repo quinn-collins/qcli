@@ -40,6 +40,19 @@ QCLI COMMANDS
   -r, --aws-region STRING             The region AWS commands will operate within. (default: us-east-1)
 ```
 
-Environment variables can be specified by prefixing a flag with `QCLI_` and replacing hyphens with underscords, e.g. `--aws-target-profile` is set via `QCLI_AWS_TARGET_PROFILE`.
+Environment variables:
+Can be specified by prefixing a flag with `QCLI_` and replacing hyphens with underscores, e.g. `--aws-target-profile` is set via `QCLI_AWS_TARGET_PROFILE`.
 
-The config file is expected to be found at `$HOME/.config/qcli/config.yaml`. Items in the configuration file can be specified using the flags minus the `--` prefix, e.g. `--aws-target-profile` is set via `aws-target-profile: my-named-profile`
+Configuration file:
+Expected to be found at `$HOME/.config/qcli/config.yaml`. Items in the configuration file can be specified using the flags minus the `--` prefix, e.g. `--aws-target-profile` is set via `aws-target-profile: my-named-profile`
+
+
+## AWS Integration
+
+Currently supports authentication to AWS accounts and Localstack using the [configuration and credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-format) files.
+
+## Datadog Integration
+## Github Integration
+## Slack Integration
+## Sonar Integration
+
