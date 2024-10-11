@@ -26,6 +26,11 @@ NAME
   -h, --help                          Display help information.
 
 QCLI COMMANDS
+  qcli sso
+
+  -h, --help                          Display help information.
+  -p, --aws-profile STRING            The credentials profile used by AWS. (default: default)
+
   qcli mfa
 
   -h, --help                          Display help information.
